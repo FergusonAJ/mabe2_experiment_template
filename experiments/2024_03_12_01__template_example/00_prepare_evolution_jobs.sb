@@ -99,7 +99,7 @@ then
     rm ${ROLL_Q_DIR}/roll_q_job_array.txt
     touch ${ROLL_Q_DIR}/roll_q_job_array.txt
     echo "roll_q initialized!"
-    echo "[VERBOSE] roll_q dir: ${ROLL_Q_DIR}"
+    echo "roll_q dir: ${ROLL_Q_DIR}"
 fi
 
 # Copy all files that are shared across replicates
